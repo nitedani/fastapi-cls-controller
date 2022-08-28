@@ -5,12 +5,12 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent.parent
 
 VERSION = "0.0.1"
-DESCRIPTION = "fastapi_controller"
+DESCRIPTION = "fastapi_cls_controller"
 # The text of the README file
 README = (HERE / "README.md").read_text()
 # Setting up
 setup(
-    name="fastapi_controller",
+    name="fastapi_cls_controller",
     version=VERSION,
     author="Horváth Dániel",
     author_email="nitedani@gmail.com",
