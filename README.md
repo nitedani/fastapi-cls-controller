@@ -5,7 +5,9 @@ A decorator based router for FastAPI
 # fruit_controller.py
 from fastapi_cls_controller import controller, delete, get, post, put, ...
 
+
 @controller(
+    # Arguments are forwarded to the fastapi APIRouter.
     prefix="/fruits",
 )
 class FruitController:
@@ -25,3 +27,5 @@ class FruitController:
 # main.py
 app.include_router(FruitController())
 ```
+
+
