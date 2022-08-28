@@ -2,7 +2,7 @@ A decorator based router for FastAPI
 ---
 
 ```python
-# fruit_controller.py
+# fruit_cls_controller.py
 from fastapi_controller import controller, delete, get, post, put, ...
 
 @controller(
