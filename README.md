@@ -1,4 +1,4 @@
-A decorator based router for FastAPI
+A class/decorator based router for FastAPI
 ---
 
 ```python
